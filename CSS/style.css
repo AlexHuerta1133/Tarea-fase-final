@@ -13,7 +13,10 @@
       color: white; 
       padding: 10px 20px; 
       text-align: center; 
+      height: 140px;
     }
+
+   
 
     nav { 
         background-color: #15623e; 
@@ -51,7 +54,7 @@
       list-style: disc; 
       margin-left: 20px; 
     }
-    
+ 
     .social-links a {
       margin: 0 10px;
       text-decoration: none;
@@ -99,3 +102,69 @@
       color: white; 
     }
     
+
+.video-container { 
+width: 838px;
+  height: 393px;
+  margin-bottom: 23px;
+  border-left-width: 0px;
+  border-left-style: solid;
+  margin-left: 41px;
+  padding-left: 52px;
+}
+
+.video-controls { 
+  margin-top: 10px; 
+}
+
+.video-controls button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.texto {
+  width: 650px;
+  padding-bottom: 0px;
+  margin-bottom: 16px;
+  height: 84px;
+  border-top-width: 0px;
+  border-top-style: solid;
+  margin-top: 0px;
+}
+
+.social-links {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.social-links span {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.social-button {
+  cursor: pointer;
+  font-size: large;
+  font-family: inherit;
+  font-weight: bold;
+  color: #0011ff;
+  background-color: #06069b;
+  padding: -1.1em 2.2em;
+  border-radius: 40em;
+  border: 6px solid #8b93f8;
+  box-shadow: 0px 8px #1f35ff;
+  padding-left: 3px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.social-button:active {
+  position: relative;
+  top: 8px;
+  border: 6px solid #646fff;
+  box-shadow: 0px 0px;
+}
