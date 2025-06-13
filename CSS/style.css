@@ -1,4 +1,4 @@
-  body { 
+body { 
     font-family: Arial, sans-serif; 
     margin: 0; 
     padding: 0; 
@@ -113,17 +113,6 @@ width: 838px;
   padding-left: 52px;
 }
 
-.video-controls { 
-  margin-top: 10px; 
-}
-
-.video-controls button {
-  padding: 8px 12px;
-  margin: 0 5px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
 .texto {
   width: 650px;
   padding-bottom: 0px;
@@ -168,3 +157,4 @@ width: 838px;
   border: 6px solid #646fff;
   box-shadow: 0px 0px;
 }
+
