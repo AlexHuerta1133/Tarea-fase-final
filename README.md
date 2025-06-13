@@ -32,4 +32,4 @@ Este sitio es un **proyecto simulado** con fines educativos, como parte de una a
 ---
 
 Autor: **Abraham Alejandro Huerta Aguirre**  
-Prepa en Línea SEP - Módulo 23 - Grupo M23C2G48-027
+Prepa en Línea SEP - Módulo 23 - Grupo 027
