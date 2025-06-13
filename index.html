@@ -33,44 +33,11 @@
       <div>
       <h2>Video de presentación</h2>
       <video class="video-container" width="100%" controls>
-        <source src="" type="video/mp4">
+        <source src="/video/video presentacion fase 7.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
         <!-- Video de presentación con controles personalizados -->
-<div>
-  <h2>Video de presentación</h2>
-  <video id="intro-video" width="100%">
-    <source src="video/Video Medio Ambiente Collage Verde.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de video.
-  </video >
-  <div class="video-controls">
-    <button id="play-btn">► Play</button>
-    <button id="pause-btn">❚❚ Pausa</button>
-    <button id="rewind-btn">« 10s</button>
-    <button id="forward-btn">10s »</button>
-  </div>
-</div>
+      </div>
 
-<style>
-
-</style>
-
-<script>
-  const video = document.getElementById('intro-video');
-  document.getElementById('play-btn').addEventListener('click', () => {
-    video.play();
-  });
-  document.getElementById('pause-btn').addEventListener('click', () => {
-    video.pause();
-  });
-  document.getElementById('rewind-btn').addEventListener('click', () => {
-    video.currentTime = Math.max(0, video.currentTime - 10);
-  });
-  document.getElementById('forward-btn').addEventListener('click', () => {
-    video.currentTime = Math.min(video.duration, video.currentTime + 10);
-  });
-</script>
-      </video>
-    </div>
   </main>
 
 <footer>
